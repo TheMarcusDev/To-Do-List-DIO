@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(210, 240, 207);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(87, 134, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputChore {
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.button {
+    background-color: rgba(27, 221, 9, 0.5);
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);;
+
+    padding: 6.3px;
+    font-size: 15px;
+    margin: 5px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button2 {
+    background-color: rgba(248, 6, 6, 0.842);
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    color: white;
+
+    padding: 6.3px;
+    font-size: 15px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.choreListWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choreList {
+    padding-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 454px;
+}
+
+.emptyChore {
+    color:rgb(132, 148, 116);
+}
+
+.choreInputed {
+    color: black;
+}
+
+.choreDone {
+    color: rgb(132, 148, 116);
+    text-decoration: line-through;
+}
